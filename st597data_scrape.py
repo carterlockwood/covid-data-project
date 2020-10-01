@@ -27,7 +27,7 @@ for link in jh_csv_links:
     current_href= f'https://raw.githubusercontent.com{current_href}'
     #making key format 'MM-DD-YYYY'
     key = link.attrs['title'].replace('.csv', '')
-    csv_data[key] = current_href
+    jh_csv_data[key] = current_href
 
 #JH DATA FRAME - COMPREHENSIVE STATE DATA
 ''' Data Frame Containing Daily Confirmed, Deaths, Recovered, and Active Case
